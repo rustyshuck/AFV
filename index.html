@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animal Friends of Virginia</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script src="jquery.js"></script>
+	<script>
+		//Choose if you want the window width to display - 1 = yes, 0 = no
+		var showWidth = 1;
+		
+		if(showWidth == 1){
+        	$(document).ready(function (){
+            	$(window).resize(function(){
+                	var width = $(window).width();
+                	document.getElementById("output_width").innerHTML='Window Width:'+width.toString();
+           		});
+        	});
+		}
+    </script>
+</head>
+<body>
+ <div id="output_width"></div><!--Widow width inserted here-->
+	<div id="container">
+	<header class="main-header">
+		<h1>Animal Friends of Virginia</h1>
+		<nav class="main-nav">
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Adoption Info</a></li>
+				<li><a href="#">Animals</a>
+					<ul>dogs</ul>
+					<ul>cats</ul>
+				</li>
+				<li><a href="#">Fosters</a>
+					<ul>Fosters FAQ</ul>
+				</li>
+				<li><a href="#">Sponsorship Info</a></li>
+			</ul>
+		</nav><!--./main-nav-->
+	</header><!--./main-header-->
+	<div id="main">
+		<div id="content">
+			<p>Animal Friends of Virginia is a foster-based, northern Virginia non-profit group affiliated with the Animal Friends of Barbour County.
+			</p>
+		  <article class="art1">
+				<header class="art-header">
+					<h2 class="title"><a href="#">What makes our group special?</a></h2>
+					<span></span>
+				</header><!--./art-header-->
+					<p>We are partnering with Animal Friends of Barbour County (AFOBC),  a 501(c)(3) non-profit, no-kill shelter located in a rural area of West Virginia. They have so many awesome animals just waiting for their forever homes.  We are helping to broaden the audience for these wonderful animals by bringing them to Northern Virginia.</p>
+					<a class="readmore" href="#">Read more</a>
+			</article>
+			<article class="art1">
+				<header class="art-header">
+					<h2 class="title"><a href="#">FOSTERS NEEDED!!!</a></h2>
+					<span></span>
+				</header><!--./art-header-->
+				<p>Can you please open your hearts and home to foster? Animal Friends – VA needs foster homes for the animals we bring from AFOBC.  We want to get as many out of the shelter and into forever homes as possible, but we can only do that if we have foster families. <br>
+				  If interested, please email us at animalfriendsva@gmail.com</p>
+				<p>Thank you!</p>
+				<a class="readmore" href="#">Read more</a>
+			</article>
+		<article class="art1">
+				<header class="art-header">
+					<h2 class="title"><a href="#">Highlighted Dogs</a></h2>
+					<span><a href="#"><u>See all dogs!</u></a></span>
+		  </header><!--./art-header-->
+        <article class="animalInfo"> <!-- Each individual dog description -->
+          <div class="highlightedPicture">
+          	<a href="/animals/detail?AnimalID=9728655">
+				<img src="https://s3.amazonaws.com/filestore.rescuegroups.org/8002/pictures/animals/9728/9728655/33019313_500x666.jpg" width="100" height="133" alt="Willow/Gigi" class="animalimg">
+			</a>
+          </div>
+          <p>Looking for a runner and a snuggler? Willow is so sweet! When she was a puppy, she was given to...<a href="/animals/detail?AnimalID=9728655">...read more about Willow/Gigi</a></p>
+        </article>
+        <article class="animalInfo"><!-- Each individual dog description -->
+          <div class="highlightedPicture">
+        <a href="/animals/detail?AnimalID=10669436">
+			<img src="https://s3.amazonaws.com/filestore.rescuegroups.org/8002/pictures/animals/10669/10669436/40342679_500x738.jpg" width="100" height="148" alt="Oscar" class="animalimg">
+		</a>
+          </div>
+          <p>We got a call asking if we could take this family&#39;s 50 pound dashund. WHAT??? A 50 pound dashund<a href="/animals/detail?AnimalID=10669436">...read more about Oscar</a></p>
+        </article>
+		 <article class="animalInfo"><!-- Each individual dog description -->
+          <div class="highlightedPicture">
+          	<a href="/animals/detail?AnimalID=10803231">
+				<img src="https://s3.amazonaws.com/filestore.rescuegroups.org/8002/pictures/animals/10803/10803231/40648630_500x888.jpg" width="100" height="178" alt="Pokey" class="animalimg">
+			</a>
+          </div>
+			<p>Wow, a pocket full of cuteness. This little pup is just adorable. He&#39;s almost 2 pounds and will <a href="/animals/detail?AnimalID=10803231">...read more about Pokey</a></p>
+			</article>
+			 <article class="animalInfo"><!-- Each individual dog description -->
+          <div class="highlightedPicture">
+          	<a href="/animals/detail?AnimalID=10803231">
+				<img src="https://s3.amazonaws.com/filestore.rescuegroups.org/8002/pictures/animals/10803/10803231/40648630_500x888.jpg" width="100" height="178" alt="Pokey" class="animalimg">
+			</a>
+          </div>
+			<p>Wow, a pocket full of cuteness. This little pup is just adorable. He&#39;s 1.8&nbsp;pounds and will <a href="/animals/detail?AnimalID=10803236">...read more about Petey</a></p>
+			</article>		
+		</article><!--./art1-->
+		</div><!--./content-->
+		<aside id="sidebar">
+			<div class="block">
+				<h2>Top Sidebar</h2>
+				<p>
+					<img src="https://s3.amazonaws.com/imagesroot.rescuegroups.org/clear150.gif"><br>
+					<div class="AnimalAd">
+						<a href="/animals/detail?AnimalID=10803231"><img src="https://s3.amazonaws.com/filestore.rescuegroups.org/8002/pictures/animals/10803/10803231/40648630_100x177.jpg" alt="Pokey" class="animalimg"></a><br>
+						<a href="/animals/detail?AnimalID=10803231">Pokey<br>
+						Chihuahua / Mixed (medium coat)</a>
+					</div>
+					<div class="menuText">
+					<div class="animalSearchForm">
+						<form method="post" action="/info/search_process">
+							<input type="hidden" name="type" value="simple">Search Our Website:<br>
+							<select name="fWhatToSearch" class="smallFormField">
+								<option value="Available">Available Animals</option>
+								<option value="AvailableAndSuccesses">Animals &amp; Successes</option>
+								<option value="Website">Website Content</option>
+							</select><br>
+							<input type="text" name="searchtext" size="8" class="smallFormField">&nbsp;&nbsp;
+							<input type="submit" value="GO!" class="smallFormField"><br>Enter keywords, and GO!
+						</form></div>
+					</div>
+				</p>
+			</div><!--./side1-->
+			<div class="block">
+				<h2>Mid Sidebar</h2>
+				<p>
+					<!-- opening table column two, google maps script below --><iframe frameborder="0" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49855.78939930955!2d-77.328691024125!3d38.64918297960958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b656730aad2867%3A0x9b538fa6abd8d5cf!2s13337+Worth+Ave%2C+Woodbridge%2C+VA+22192!5e0!3m2!1sen!2sus!4v1474428981848" style="border:0"></iframe>
+				<p>Visit us every Sunday from 12:30 to 3:00 at the Potomac Mills Petsmart, 13337 Worth Ave Woodbridge VA 22182</p>
+				</p>
+			</div><!--./side2-->
+			<div class="block">
+				<h2>Bottom Sidebar</h2>
+				<p>
+					<div class="affiliate" id="affiliateFacebookPage">
+						<a href="http://www.facebook.com/https://www.facebook.com/AnimalFriendsVA" target="_blank" title="Animal Friends of Barbour County on Facebook">
+						<img src="https://s3.amazonaws.com/imagesroot.rescuegroups.org/facebookbadge.gif" border="0" alt="Animal Friends of Barbour County on Facebook">
+						</a>
+					</div>
+				</p>
+			</div><!--./side3-->
+		</aside>
+	</div><!--./main-->
+	<div class="clr"></div>
+	<footer>
+		<p>
+			&copy; 2016 Animal Friends
+			<u>Animal Friends</u><br>Woodbridge, VA  22193<br>Last Updated: 3/1/2016 1:05 PM <br><a href="mailto:animalfriendsva@gmail.com">animalfriendsva@gmai..</a>
+		</p>
+	</footer>
+	</div><!--./container-->
+</body>
+</html>
